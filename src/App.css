@@ -1,0 +1,93 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+
+.container {
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #CC9;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #CC9;
+  padding: 1rem;
+  width: 20rem;
+}
+
+.title {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.subtitle {
+  font-size: 0.75rem;
+  color: #666;
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+.input {
+  border: 2px solid #333;
+  padding: 1rem;
+  background-color: #fff;
+  border-radius: 4px;
+  color: #333;
+  font-size: 0.7rem;
+  margin: 0.5rem 0;
+  width: 70%;
+  outline: none;
+}
+
+.qr-code {
+  margin: 1rem 0;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  padding: 1rem;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.btn-download {
+  border: none;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn-download:hover {
+  background-color: #666;
+}
+
+.footer {
+  position: absolute;
+  bottom: 1rem;
+  width: 100%;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.author {
+  font-size: 0.5rem;
+  color: #FFF;
+  text-decoration: none;
+  margin-left: 0.25rem;
+}
