@@ -17,21 +17,22 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #CC9;
+  background-color: #43425D;
   border-radius: 10px;
-  box-shadow: 0 0 8px #CC9;
+  box-shadow: 0 0 8px #43425D;
   padding: 1rem;
   width: 20rem;
 }
 
 .title {
   font-size: 1.5rem;
-  color: #333;
+  color: #0b0b0b;
+  
 }
 
 .subtitle {
   font-size: 0.75rem;
-  color: #666;
+  color:  #CC9;
   font-weight: 500;
   margin: 0.5rem 0;
 }
